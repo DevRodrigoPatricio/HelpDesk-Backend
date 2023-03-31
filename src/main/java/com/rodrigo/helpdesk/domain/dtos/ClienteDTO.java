@@ -33,6 +33,7 @@ public class ClienteDTO   implements Serializable {
         super();
         addPerfils(Perfil.CLIENTE);
     }
+    
 
     public ClienteDTO(Cliente obj) {
         this.id = obj.getId();
